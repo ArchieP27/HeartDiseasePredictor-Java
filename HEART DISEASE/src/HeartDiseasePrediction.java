@@ -12,7 +12,7 @@ public class HeartDiseasePrediction {
     CSVLoader loader = new CSVLoader();
     Instances heartData = null;
     Classifier model = new Logistic();
-    String modelPath = "C:\\Users\\porov\\JAVACODES\\HEART DISEASE\\src\\heart_model.model";
+    String modelPath = "heart_model.model";
 
     public HeartDiseasePrediction() {
         // Load dataset
@@ -159,3 +159,4 @@ public class HeartDiseasePrediction {
         System.out.println("Prediction for test data (0 = No Heart Disease, 1 = Heart Disease): " + prediction2);
     }
 }
+
